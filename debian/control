@@ -1,0 +1,14 @@
+Source: pidgin-telegram
+Section: net
+Priority: optional
+Maintainer: Hugues Morisset <morisset.hugues@gmail.com>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/majn/telegram-purple
+Vcs-Git: git@github.com:majn/telegram-purple.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/pidgin-telegram.git;a=summary
+
+Package: pidgin-telegram
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Adds support for Telegram to Pidgin
