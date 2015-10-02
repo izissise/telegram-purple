@@ -160,6 +160,15 @@ Compiling with XCode is a little bit problematic, since it requires you to compi
 5. Build the XCode-Project and execute the created bundle
 
 
+Building the Debian Package
+---------------------------
+
+To build the debian package and easely redistribube the plugin you have to:
+
+1. First clone (git clone --recursive https://github.com/majn/telegram-purple) and cd in the directory (cd telegram-purple)
+2. fakeroot ./debian/rules binary
+3. You're done the .deb is in the parent directory
+
 Discussion / Help
 -----------------
 
